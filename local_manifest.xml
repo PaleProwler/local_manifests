@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <remote name="ObsidianMaximus"
+            fetch="https://github.com/ObsidianMaximus"
+            clone-depth="1" />
+ <!-- Tree -->
+ <project path="device/realme/bitra" name="android_device_realme_bitra" remote="ObsidianMaximus" revision="crDroid-14.0" />
+
+<!-- Common Tree -->
+<project path="device/realme/sm8250-common" name="android_device_realme_sm8250-common" remote="ObsidianMaximus" revision="crDroid-14.0" />
+
+ <!-- Kernel -->
+ <project path="kernel/realme/sm8250" name="kernel_realme_sm8250" remote="ObsidianMaximus" revision="bigshot-AOSP" />
+ 
+ <!-- Vendor -->
+ <project path="vendor/realme/bitra" name="android_vendor_realme_bitra" remote="ObsidianMaximus" revision="aosp-14" />
+
+ <!-- Common Vendor -->
+ <project path="vendor/realme/sm8250-common" name="android_vendor_realme_sm8250-common" remote="ObsidianMaximus" revision="aosp-14" />
+
+<!-- Hardware -->
+ <project path="hardware/oplus" name="android_hardware_oplus" remote="ObsidianMaximus" revision="cam-14" />
+
+</manifest>
