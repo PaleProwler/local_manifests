@@ -16,7 +16,7 @@
  <project path="vendor/realme/bitra" name="android_vendor_realme_bitra" remote="ObsidianMaximus" revision="aosp-14" />
 
  <!-- Common Vendor -->
- <project path="vendor/realme/sm8250-common" name="android_vendor_realme_sm8250-common" remote="ObsidianMaximus" revision="aosp-14" />
+ <project path="vendor/realme/sm8250-common" name="android_vendor_realme_sm8250-common" remote="ObsidianMaximus" revision="crDroid-14.0" />
 
 <!-- Hardware -->
  <project path="hardware/oplus" name="android_hardware_oplus" remote="ObsidianMaximus" revision="cam-14" />
