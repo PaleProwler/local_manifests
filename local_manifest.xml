@@ -7,7 +7,7 @@
  <project path="device/realme/bitra" name="android_device_realme_bitra" remote="ObsidianMaximus" revision="crDroid-14.0" />
 
 <!-- Common Tree -->
-<project path="device/realme/sm8250-common" name="android_device_realme_sm8250-common" remote="ObsidianMaximus" revision="crDroid-14.0" />
+<project path="device/realme/sm8250-common" name="android_device_realme_sm8250-common" remote="ObsidianMaximus" revision="lineage-21" />
 
  <!-- Kernel -->
  <project path="kernel/realme/sm8250" name="kernel_realme_sm8250" remote="ObsidianMaximus" revision="bigshot-AOSP" />
