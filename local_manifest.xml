@@ -2,7 +2,7 @@
 <manifest>
    <remote name="ObsidianMaximus" fetch="https://github.com/ObsidianMaximus" clone-depth="1" />
  <!-- Tree -->
- <project path="device/realme/bitra" name="android_device_realme_bitra" remote="ObsidianMaximus" revision="rising-14.0" />
+ <project path="device/realme/bitra" name="android_device_realme_bitra" remote="ObsidianMaximus" revision="crDroid-14.0" />
 
 <!-- Common Tree -->
 <project path="device/realme/sm8250-common" name="android_device_realme_sm8250-common" remote="ObsidianMaximus" revision="lineage-21" />
