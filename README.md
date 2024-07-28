@@ -1,10 +1,10 @@
 To initialize your local repository use
 ---------------------------------------
 
-    git clone https://github.com/ObsidianMaximus/local_manifest.git -b master .repo/local_manifests
+    git clone https://github.com/ObsidianMaximus/local_manifest.git -b lineage-21 .repo/local_manifests
     
 
 Then to sync up:
 ----------------
 
-    repo sync --force-sync -j12 --current-branch --no-tags --no-clone-bundle --optimized-fetch --force-broken
+    repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all
