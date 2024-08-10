@@ -25,13 +25,4 @@
 <!-- Oplus Camera -->
 <project path="vendor/oplus/camera" name="proprietary_vendor_oplus_camera" remote="Gowtham" revision="lineage-21" />
 
-<!-- Build Soong -->
-<project path="build/soong" name="android_build_soong" remote="ObsidianMaximus" revision="lineage-21.0" />
-
-<!-- Vendor Lineage -->
-<project path="vendor/lineage" name="android_vendor_lineage" remote="ObsidianMaximus" revision="lineage-21.0" />
-
-<!-- Frameworks AV -->
-<project path="frameworks/av" name="android_frameworks_av" remote="ObsidianMaximus" revision="lineage-21.0" />
-
 </manifest>
