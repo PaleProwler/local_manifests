@@ -11,7 +11,7 @@
 <project path="device/realme/sm8250-common" name="android_device_realme_sm8250-common" remote="ObsidianMaximus" revision="crDroid-14.0" />
 
  <!-- Kernel -->
- <project path="kernel/realme/sm8250" name="kernel_realme_sm8250" remote="Peter" revision="bigshot-AOSP" />
+ <project path="kernel/realme/sm8250" name="kernel_realme_sm8250" remote="ObsidianMaximus" revision="bigshot-AOSP" />
  
  <!-- Vendor -->
  <project path="vendor/realme/bitra" name="android_vendor_realme_bitra" remote="ObsidianMaximus" revision="aosp-14" />
