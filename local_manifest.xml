@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    <remote name="ObsidianMaximus" fetch="https://github.com/ObsidianMaximus" clone-depth="1" />
-   <remote name="Peter" fetch="https://github.com/Blackmanx" clone-depth="1" />
-   <remote name="Krish" fetch="https://gitlab.com/krishnayadavxyz" clone-depth="1" />
    <remote name="Pale" fetch="https://github.com/PaleProwler" clone-depth="1" />
 
  <!-- Tree -->
- <project path="device/realme/bitra" name="android_device_realme_bitra" remote="ObsidianMaximus" revision="crDroid-14.0" />
+ <project path="device/realme/bitra" name="android_device_realme_bitra" remote="ObsidianMaximus" revision="lineage-21" />
 
  <!-- Common Tree -->
  <project path="device/realme/sm8250-common" name="android_device_realme_sm8250-common" remote="ObsidianMaximus" revision="crDroid-14.0" />
@@ -21,12 +19,9 @@
  <project path="vendor/realme/sm8250-common" name="android_vendor_realme_sm8250-common" remote="ObsidianMaximus" revision="crDroid-14.0" />
 
 <!-- Hardware -->
- <project path="hardware/oplus" name="hardware_oplus" remote="ObsidianMaximus" revision="crDroid-14.0" />
+ <project path="hardware/oplus" name="android_hardware_oplus" remote="ObsidianMaximus" revision="cam-14" />
 
 <!-- Key -->
 <project path="vendor/lineage-priv" name="vendor_lineage-priv" remote="Pale" revision="master" />
-
-<!-- Oplus Camera -->
-<project path="vendor/oplus/camera" name="proprietary_vendor_oplus_camera" remote="Krish" revision="lineage-21" />
 
 </manifest>
