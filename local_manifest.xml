@@ -2,15 +2,17 @@
 <manifest>
    <remote name="ObsidianMaximus" fetch="https://github.com/ObsidianMaximus" clone-depth="1" />
    <remote name="Pale" fetch="https://github.com/PaleProwler" clone-depth="1" />
+   <remote name="Peter" fetch="https://github.com/Blackmanx" clone-depth="1" />
+   <remote name="Gitlab" fetch="https://gitlab.com/krishnayadavxyz" clone-depth="1" />
 
  <!-- Tree -->
- <project path="device/realme/bitra" name="android_device_realme_bitra" remote="ObsidianMaximus" revision="lineage-21" />
+ <project path="device/realme/bitra" name="android_device_realme_bitra" remote="Pale" revision="crDroid-14.0" />
 
  <!-- Common Tree -->
- <project path="device/realme/sm8250-common" name="android_device_realme_sm8250-common" remote="ObsidianMaximus" revision="crDroid-14.0" />
+ <project path="device/realme/sm8250-common" name="android_device_realme_sm8250-common" remote="Pale" revision="crDroid-14.0" />
 
  <!-- Kernel -->
- <project path="kernel/realme/sm8250" name="kernel_realme_sm8250" remote="ObsidianMaximus" revision="bigshot-AOSP" />
+ <project path="kernel/realme/sm8250" name="kernel_realme_sm8250" remote="Peter" revision="bigshot-AOSP" />
  
  <!-- Vendor -->
  <project path="vendor/realme/bitra" name="android_vendor_realme_bitra" remote="ObsidianMaximus" revision="aosp-14" />
@@ -22,6 +24,9 @@
  <project path="hardware/oplus" name="android_hardware_oplus" remote="ObsidianMaximus" revision="cam-14" />
 
 <!-- Key -->
-<project path="vendor/lineage-priv" name="vendor_lineage-priv" remote="Pale" revision="master" />
+<project path="vendor/lineage-priv" name="vendor_lineage-priv" remote="Pale" revision="crdroid-14" />
+
+<!-- OplusCam -->
+<project path="vendor/oplus/camera" name="proprietary_vendor_oplus_camera" remote="Gitlab" revision="lineage-21" />
 
 </manifest>
