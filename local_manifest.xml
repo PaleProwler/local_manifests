@@ -21,7 +21,7 @@
  <project path="vendor/realme/sm8250-common" name="android_vendor_realme_sm8250-common" remote="ObsidianMaximus" revision="crDroid-14.0" />
 
 <!-- Hardware -->
- <project path="hardware/oplus" name="android_hardware_oplus" remote="ObsidianMaximus" revision="cam-14" />
+ <project path="hardware/oplus" name="android_hardware_oplus" remote="Pale" revision="crDroid-15" />
 
 <!-- Key -->
 <project path="vendor/lineage-priv" name="vendor_lineage-priv" remote="Pale" revision="crdroid-14" />
